@@ -1,0 +1,178 @@
+BulkImportSample.exe Information: 0 : Fetching partition map of collection
+BulkImportSample.exe Information: 0 : Generating 10 documents to import for batch 0
+BulkImportSample.exe Information: 0 : Executing bulk import for batch 0
+BulkImportSample.exe Information: 0 : Sorting 1000000 documents into 9 partition buckets
+BulkImportSample.exe Information: 0 : Creating mini batches within each partition bucket
+BulkImportSample.exe Information: 0 : partitionRangeId = 7 currentMiniBatchSize = 282 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 1
+BulkImportSample.exe Information: 0 : partitionRangeId = 0 currentMiniBatchSize = 680 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 2
+BulkImportSample.exe Information: 0 : partitionRangeId = 2 currentMiniBatchSize = 329 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 1
+BulkImportSample.exe Information: 0 : partitionRangeId = 1 currentMiniBatchSize = 334 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 1
+BulkImportSample.exe Information: 0 : partitionRangeId = 5 currentMiniBatchSize = 631 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 2
+BulkImportSample.exe Information: 0 : partitionRangeId = 6 currentMiniBatchSize = 616 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 2
+BulkImportSample.exe Information: 0 : partitionRangeId = 3 currentMiniBatchSize = 335 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 1
+BulkImportSample.exe Information: 0 : Beginning bulk import within each partition bucket
+BulkImportSample.exe Error: 0 : Partition range id 5 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: a5697b49-dec8-4887-8e4a-1035c723321d, Request URI: /apps/df47e4e9-8603-42ab-867c-1ebce935d644/services/817548bd-3632-458a-90af-832c1a89ed27/partitions/db3b67c1-2091-4558-9bf8-cac06c33ed1f/replicas/132007457261689009p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400
+BulkImportSample.exe Error: 0 : Partition range id 1 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: 48e239dc-bf8d-469b-8019-387de86bc370, Request URI: /apps/df47e4e9-8603-42ab-867c-1ebce935d644/services/981b6f9c-6656-41e4-9b6c-9387ac6f7e2e/partitions/9066df3f-829d-47ce-ad89-d90e9f8f35b8/replicas/131994777797055535p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400
+BulkImportSample.exe Error: 0 : Partition range id 0 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: 425d99bd-943c-4f4e-9d72-2266ef2bf00e, Request URI: /apps/df47e4e9-8603-42ab-867c-1ebce935d644/services/85dc1659-be5d-4a91-9ee7-4186a34b3ff4/partitions/9068c922-7801-47df-a849-afd1dc81e71b/replicas/132004567543709769p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400
+BulkImportSample.exe Error: 0 : Partition range id 2 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: 94623524-fc4a-4ae9-a002-98ce22b9a1f8, Request URI: /apps/df47e4e9-8603-42ab-867c-1ebce935d644/services/4a899fd8-4065-4501-a01e-ecd774f58597/partitions/5c03d1ed-b8df-4a30-9658-86220978f4f1/replicas/132006462035792009p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400
+BulkImportSample.exe Error: 0 : Partition range id 5 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: a5697b49-dec8-4887-8e4a-1035c723321d, Request URI: /apps/df47e4e9-8603-42ab-867c-1ebce935d644/services/817548bd-3632-458a-90af-832c1a89ed27/partitions/db3b67c1-2091-4558-9bf8-cac06c33ed1f/replicas/132007457261689009p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400, documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0
+BulkImportSample.exe Error: 0 : Partition range id 0 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: 425d99bd-943c-4f4e-9d72-2266ef2bf00e, Request URI: /apps/df47e4e9-8603-42ab-867c-1ebce935d644/services/85dc1659-be5d-4a91-9ee7-4186a34b3ff4/partitions/9068c922-7801-47df-a849-afd1dc81e71b/replicas/132004567543709769p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400, documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0
+BulkImportSample.exe Error: 0 : Partition range id 1 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: 48e239dc-bf8d-469b-8019-387de86bc370, Request URI: /apps/df47e4e9-8603-42ab-867c-1ebce935d644/services/981b6f9c-6656-41e4-9b6c-9387ac6f7e2e/partitions/9066df3f-829d-47ce-ad89-d90e9f8f35b8/replicas/131994777797055535p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400, documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0
+BulkImportSample.exe Error: 0 : Partition range id 2 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: 94623524-fc4a-4ae9-a002-98ce22b9a1f8, Request URI: /apps/df47e4e9-8603-42ab-867c-1ebce935d644/services/4a899fd8-4065-4501-a01e-ecd774f58597/partitions/5c03d1ed-b8df-4a30-9658-86220978f4f1/replicas/132006462035792009p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400, documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0
+BulkImportSample.exe Error: 0 : Partition range id 6 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: 99eb7704-0f29-497d-8eed-3df3c75c1387, Request URI: /apps/8e61acd0-da17-4519-b9b5-a5962f8043bc/services/966c1f6b-fa8d-43fc-8642-ffc289ec961d/partitions/3119b4af-5586-4d6b-aaa7-212e6e4a531a/replicas/132007740014256026p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400
+BulkImportSample.exe Error: 0 : Partition range id 6 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: 99eb7704-0f29-497d-8eed-3df3c75c1387, Request URI: /apps/8e61acd0-da17-4519-b9b5-a5962f8043bc/services/966c1f6b-fa8d-43fc-8642-ffc289ec961d/partitions/3119b4af-5586-4d6b-aaa7-212e6e4a531a/replicas/132007740014256026p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400, documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0
+BulkImportSample.exe Error: 0 : Partition range id 7 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: 931c98a4-186e-4af7-ba82-c871cba2aa32, Request URI: /apps/df47e4e9-8603-42ab-867c-1ebce935d644/services/8c2884ab-fd15-4559-83d5-0bf0daba57cb/partitions/a82beb03-90c3-40bd-9297-0b68292d4a9c/replicas/131992842099656347p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400
+BulkImportSample.exe Error: 0 : Partition range id 3 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: a375a977-f94d-4377-9b1c-1361289478dd, Request URI: /apps/8e61acd0-da17-4519-b9b5-a5962f8043bc/services/e5536c85-4895-403d-afb5-59e14684000d/partitions/c0d11663-54be-4f31-a820-76e364244707/replicas/131993165653657802p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400
+BulkImportSample.exe Error: 0 : Partition range id 7 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: 931c98a4-186e-4af7-ba82-c871cba2aa32, Request URI: /apps/df47e4e9-8603-42ab-867c-1ebce935d644/services/8c2884ab-fd15-4559-83d5-0bf0daba57cb/partitions/a82beb03-90c3-40bd-9297-0b68292d4a9c/replicas/131992842099656347p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400, documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0
+BulkImportSample.exe Error: 0 : Partition range id 3 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: a375a977-f94d-4377-9b1c-1361289478dd, Request URI: /apps/8e61acd0-da17-4519-b9b5-a5962f8043bc/services/e5536c85-4895-403d-afb5-59e14684000d/partitions/c0d11663-54be-4f31-a820-76e364244707/replicas/131993165653657802p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400, documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0
+BulkImportSample.exe Error: 0 : Document client exception: Microsoft.Azure.Documents.DocumentClientException: Partition range id 0 | Failed to import mini-batch. Exception was Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: 425d99bd-943c-4f4e-9d72-2266ef2bf00e, Request URI: /apps/df47e4e9-8603-42ab-867c-1ebce935d644/services/85dc1659-be5d-4a91-9ee7-4186a34b3ff4/partitions/9068c922-7801-47df-a849-afd1dc81e71b/replicas/132004567543709769p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0. Status code was 400, documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0 ---> Microsoft.Azure.Documents.BadRequestException: Message: {"Errors":["Encountered exception while executing function. Exception = Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\r\nStack trace: Error: {\"Errors\":[\"One of the specified inputs is invalid\"]}\n   at createCallback (__.sys.commonBulkInsert.js:6169:26)\n   at Anonymous function (__.sys.commonBulkInsert.js:758:29)"]}
+ActivityId: 425d99bd-943c-4f4e-9d72-2266ef2bf00e, Request URI: /apps/df47e4e9-8603-42ab-867c-1ebce935d644/services/85dc1659-be5d-4a91-9ee7-4186a34b3ff4/partitions/9068c922-7801-47df-a849-afd1dc81e71b/replicas/132004567543709769p/, RequestStats: , SDK: documentdb-dotnet-sdk/1.21.1 Host/64-bit MicrosoftWindowsNT/6.2.9200.0
+   at Microsoft.Azure.Documents.TransportClient.ThrowIfFailed(String resourceAddress, StoreResponse storeResponse, Uri physicalAddress, Guid activityId)
+   at Microsoft.Azure.Documents.RntbdTransportClient.<InvokeStoreAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.ConsistencyWriter.<WritePrivateAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.ConsistencyWriter.<WriteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.ReplicatedResourceClient.<InvokeAsync>d__c.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.ReplicatedResourceClient.<>c__DisplayClass1.<<InvokeAsync>b__0>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.BackoffRetryUtility`1.<>c__DisplayClassf`1.<<ExecuteAsync>b__d>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.BackoffRetryUtility`1.<ExecuteRetry>d__1b.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Azure.Documents.BackoffRetryUtility`1.<ExecuteRetry>d__1b.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.BackoffRetryUtility`1.<ExecuteAsync>d__18`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.ReplicatedResourceClient.<InvokeAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.StoreClient.<ProcessMessageAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.Client.DocumentClient.<ExecuteProcedureAsync>d__321.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.Client.DocumentClient.<ExecuteStoredProcedurePrivateAsync>d__24b`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.BackoffRetryUtility`1.<>c__DisplayClass2.<<ExecuteAsync>b__0>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.BackoffRetryUtility`1.<ExecuteRetry>d__1b.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Azure.Documents.BackoffRetryUtility`1.<ExecuteRetry>d__1b.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Documents.BackoffRetryUtility`1.<ExecuteAsync>d__a.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.CosmosDB.BulkExecutor.BulkImport.BatchInserter.<>c__DisplayClass9_1.<<GetMiniBatches>b__0>d.MoveNext() in d:\dbs\sh\ddbpsc\0404_010251\cmd\1\Product\Tools\BulkExecutorLib\.net\BulkExecutor\BulkImport\BatchInserter.cs:line 115
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.CosmosDB.BulkExecutor.CongestionController.<>c__DisplayClass17_0.<<ExecuteAllAsync>b__1>d.MoveNext() in d:\dbs\sh\ddbpsc\0404_010251\cmd\1\Product\Tools\BulkExecutorLib\.net\BulkExecutor\CongestionController.cs:line 182
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.CosmosDB.BulkExecutor.CongestionController.<ExecuteAllAsync>d__17.MoveNext() in d:\dbs\sh\ddbpsc\0404_010251\cmd\1\Product\Tools\BulkExecutorLib\.net\BulkExecutor\CongestionController.cs:line 194
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.CosmosDB.BulkExecutor.BulkExecutor.<ExecuteBulkImportImplAsync>d__19.MoveNext() in d:\dbs\sh\ddbpsc\0404_010251\cmd\1\Product\Tools\BulkExecutorLib\.net\BulkExecutor\BulkExecutor.cs:line 386
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at BulkImportSample.Program.<>c__DisplayClass9_2.<<RunBulkImportAsync>b__0>d.MoveNext() in C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\BulkImportSample\Program.cs:line 169
+BulkImportSample.exe Error: 0 : Caught AggregateException in Main, Inner Exception:
+System.AggregateException: One or more errors occurred. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at BulkImportSample.Program.<>c__DisplayClass9_2.<<RunBulkImportAsync>b__0>d.MoveNext() in C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\BulkImportSample\Program.cs:line 200
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at BulkImportSample.Program.<RunBulkImportAsync>d__9.MoveNext() in C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\BulkImportSample\Program.cs:line 230
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at BulkImportSample.Program.Main(String[] args) in C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\BulkImportSample\Program.cs:line 61
+---> (Inner Exception #0) System.NullReferenceException: Object reference not set to an instance of an object.
+   at BulkImportSample.Program.<>c__DisplayClass9_2.<<RunBulkImportAsync>b__0>d.MoveNext() in C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\BulkImportSample\Program.cs:line 200
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilBulkImportSample.exe Information: 0 : Fetching partition map of collection
+BulkImportSample.exe Information: 0 : Generating 10 documents to import for batch 0
+BulkImportSample.exe Information: 0 : Executing bulk import for batch 0
+BulkImportSample.exe Information: 0 : Sorting 1000000 documents into 9 partition buckets
+BulkImportSample.exe Information: 0 : Creating mini batches within each partition bucket
+BulkImportSample.exe Information: 0 : partitionRangeId = 3 currentMiniBatchSize = 747 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 2
+BulkImportSample.exe Information: 0 : partitionRangeId = 7 currentMiniBatchSize = 708 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 2
+BulkImportSample.exe Information: 0 : partitionRangeId = 8 currentMiniBatchSize = 644 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 2
+BulkImportSample.exe Information: 0 : partitionRangeId = 4 currentMiniBatchSize = 333 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 1
+BulkImportSample.exe Information: 0 : partitionRangeId = 6 currentMiniBatchSize = 1028 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 3
+BulkImportSample.exe Information: 0 : Beginning bulk import within each partition bucket
+BulkImportSample.exe Information: 0 : Partition index 3 : 2 | Operated on 2 docs in 1 seconds at 15.12 RU/s with 4 tasks. Faced 0 throttles
+BulkImportSample.exe Information: 0 : Partition index 7 : 2 | Operated on 2 docs in 1 seconds at 14.99 RU/s with 4 tasks. Faced 0 throttles
+BulkImportSample.exe Information: 0 : Partition index 6 : 3 | Operated on 3 docs in 1 seconds at 22.04 RU/s with 4 tasks. Faced 0 throttles
+BulkImportSample.exe Information: 0 : Partition index 4 : 1 | Operated on 1 docs in 1 seconds at 8.41 RU/s with 4 tasks. Faced 0 throttles
+BulkImportSample.exe Information: 0 : Partition index 8 : 2 | Operated on 2 docs in 1 seconds at 15.43 RU/s with 4 tasks. Faced 0 throttles
+BulkImportSample.exe Information: 0 : Generating 10 documents to import for batch 1
+BulkImportSample.exe Information: 0 : Executing bulk import for batch 1
+BulkImportSample.exe Information: 0 : Sorting 1000000 documents into 9 partition buckets
+BulkImportSample.exe Information: 0 : Creating mini batches within each partition bucket
+BulkImportSample.exe Information: 0 : partitionRangeId = 0 currentMiniBatchSize = 372 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 1
+BulkImportSample.exe Information: 0 : partitionRangeId = 8 currentMiniBatchSize = 368 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 1
+BulkImportSample.exe Information: 0 : partitionRangeId = 5 currentMiniBatchSize = 714 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 2
+BulkImportSample.exe Information: 0 : partitionRangeId = 7 currentMiniBatchSize = 711 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 2
+BulkImportSample.exe Information: 0 : partitionRangeId = 6 currentMiniBatchSize = 720 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 2
+BulkImportSample.exe Information: 0 : partitionRangeId = 1 currentMiniBatchSize = 771 maxMiniBatchSize = 220201 currentMiniBatchDocCount = 2
+BulkImportSample.exe Information: 0 : Beginning bulk import within each partition bucket
+BulkImportSample.exe Information: 0 : Partition index 5 : 2 | Operated on 2 docs in 1 seconds at 15.17 RU/s with 4 tasks. Faced 0 throttles
+BulkImportSample.exe Information: 0 : Partition index 7 : 2 | Operated on 2 docs in 1 seconds at 15.07 RU/s with 5 tasks. Faced 0 throttles
+BulkImportSample.exe Information: 0 : Partition index 8 : 1 | Operated on 1 docs in 1 seconds at 8.59 RU/s with 5 tasks. Faced 0 throttles
+BulkImportSample.exe Information: 0 : Partition index 6 : 2 | Operated on 2 docs in 1 seconds at 14.88 RU/s with 5 tasks. Faced 0 throttles
+BulkImportSample.exe Information: 0 : Partition index 1 : 2 | Operated on 2 docs in 1 seconds at 15.27 RU/s with 4 tasks. Faced 0 throttles
+BulkImportSample.exe Information: 0 : Partition index 0 : 1 | Operated on 1 docs in 1 seconds at 8.81 RU/s with 4 tasks. Faced 0 throttles
+BulkImportSample.exe Information: 0 : Generating 10 d

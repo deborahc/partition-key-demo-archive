@@ -1,0 +1,19 @@
+{
+  "id": "bb9bb973-ec3a-4c8e-bf5d-1db13784bc09",
+  "region": "Bahamas",
+  "productPageId": "68f61d23-f3f4-4454-a19c-8ccf5cca0480",
+  "productName": "Small Cotton Bike",
+  "quantity": 7,
+  "price": "737.14",
+  "action":  "purchase",
+  "userId": "Dorothea57",
+  "trafficSource": "twitter",
+  "device": "tablet",
+  "timestamp": "2020-02-05T07:20:58.180951+00:00",
+  "date": "2020-02-05",
+  "UserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4 rv:6.0; AZ) AppleWebKit/536.2.1 (KHTML, like Gecko) Version/6.1.8 Safari/536.2.1",
+  "sessionLength": 306,
+  "contentPreview": "Animi eveniet tempore.\nExcepturi sint laudantium porro fugiat.",
+  "partitionKey": "68f61d23-f3f4-4454-a19c-8ccf5cca0480_2020-02-05",
+  "day": "2/5/2020 12:00:00 AM"
+}

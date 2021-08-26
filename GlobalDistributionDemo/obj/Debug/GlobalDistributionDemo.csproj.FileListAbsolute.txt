@@ -1,0 +1,14 @@
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\bin\Debug\GlobalDistributionDemo.exe.config
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\bin\Debug\GlobalDistributionDemo.exe
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\bin\Debug\GlobalDistributionDemo.pdb
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\bin\Debug\Microsoft.Azure.Documents.Client.dll
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\bin\Debug\Microsoft.Azure.Documents.Client.xml
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\obj\Debug\GlobalDistributionDemo.csprojAssemblyReference.cache
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\obj\Debug\GlobalDistributionDemo.csproj.CoreCompileInputs.cache
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\obj\Debug\GlobalDistributionDemo.csproj.CopyComplete
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\obj\Debug\GlobalDistributionDemo.exe
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\obj\Debug\GlobalDistributionDemo.pdb
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\bin\Debug\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\CosmosUser\source\repos\azure-cosmosdb-bulkexecutor-dotnet-getting-started\BulkImportSample\GlobalDistributionDemo\bin\Debug\DocumentDB.Spatial.Sql.dll
